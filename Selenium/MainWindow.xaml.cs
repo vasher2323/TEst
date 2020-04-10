@@ -80,7 +80,7 @@ namespace Selenium
             {
                 //web.Navigate().GoToUrl("https://web.whatsapp.com/");
                 var mass = web.FindElements(By.CssSelector("span"));
-
+                // что бы изменить файл
                 foreach (var m in mass)
                 {
                     int index = m.Text.CompareTo("Кванториум (педагоги)");
